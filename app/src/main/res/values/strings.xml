@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Skincare App</string>
+    <string name="select_api">Select API Type</string>
+    <string name="fetch_products">Fetch Products</string>
+    <string name="product_image">Product Image</string>
+    <string name="loading">Loading…</string>
+    <string name="error_loading_products">Error loading products</string>
+    <string name="retry">Retry</string>
+    <string name="no_products_found">No products found</string>
+    <string name="price_format">$%.2f</string>
+    
+    <!-- API Selection Options -->
+    <string-array name="api_options">
+        <item>Retrofit (REST API)</item>
+        <item>Apollo (GraphQL)</item>
+    </string-array>
+</resources>
