@@ -1,0 +1,15 @@
+query GetProducts {
+  products {
+    id
+    productName
+    description
+    price
+    imageUrl
+  }
+}
+
+query GetProductImage($id: ID!) {
+  productImage(id: $id) {
+    imageData
+  }
+}
